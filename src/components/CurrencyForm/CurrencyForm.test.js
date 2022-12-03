@@ -10,7 +10,6 @@ const testCases = [
 ];
 
 describe('Component CurrencyForm', () => {
-  
   it('should render without crashing', () => {
     render(<CurrencyForm action={() => {}} />);
   });
